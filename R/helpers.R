@@ -2,7 +2,7 @@
 loadStudySpec <- function(type = 'validation.json'){
   analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
     fileName = system.file('study_execution_jsons',type,
-                           package = 'RCRIvalidationGP')
+                           package = 'RCRIValidationGP')
     )
   return(analysisSpecifications)
 }
